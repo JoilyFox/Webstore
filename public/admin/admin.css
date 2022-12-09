@@ -1,0 +1,90 @@
+.truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mb-12 {
+    margin-bottom: 12px !important;
+}
+
+.pb-12 {
+    padding-bottom: 12px !important;
+}
+
+.images img {
+    width: 70px;
+    padding: 3px;
+}
+
+.modal-image {
+    width: 250px;
+    padding: 5px;
+}
+
+.imageDiv {
+    width: 130px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+}
+
+.imageDiv img {
+    width: 100%;
+}
+
+.imageDiv button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.edit-btn {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+}
+
+.profile-img img {
+    width: 120%;
+}
+
+.mt-100-16 {
+    height: calc(100% - 16px);
+}
+
+.nav-user-image {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    padding-left: 0 !important;
+    margin-left: .8rem;
+    border-radius: 50% !important;
+}
+
+.nav-user-image img {
+    width: 100%;
+    border-radius: 50% !important;
+    border-radius: 0 !important;
+}
